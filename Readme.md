@@ -20,8 +20,8 @@ Download of results: https://www.dropbox.com/s/bkdjpbqrabgtwr4/SWP784_all_result
 
 
 
-Code structure:
----------------
+Code structure
+--------------
 
 	- 1_macro_Shapley_regressions.py: UK and US macroeconomic time series analysis using 
 		machine learning (ML) models and Shapley regressions for statistical inference.
@@ -34,8 +34,8 @@ Code structure:
 		shapley_coeffs() calculates Shapley share coefficients (SSC).
 
 
-Instructions:
--------------
+Instructions
+------------
 
 	- Parts 1 and 2 are independent from each other.
 	- Part 2b depends on 2a or on pre-computed results (SWP results are provided in
@@ -45,11 +45,12 @@ Instructions:
 	- Please consult the comments in the codes and docstrings for further documentation.
 
 
-Main packages dependencies and versions:
-----------------------------------------
+Dependencies and versions
+-------------------------
 
 	- python (3.6.8, Anaconda distribution has been used)
 	- numpy (1.15.4)
+	- scipy (1.2.0)
 	- pandas (0.24.1)
 	- sklearn (0.20.2)
 	- shap (0.28.3)
