@@ -1,6 +1,6 @@
 Shapley regressions: A framework for statistical inference on machine learning models
 -------------------------------------------------------------------------------------
-Bank of England, Staff Working Paper XXX, March 2019.
+Bank of England, Staff Working Paper 784, March 2019.
 
 Created on Wed, Nov 28, 19:47, 2018
 Author: Andreas Joseph, Advanced Analytics Division, Bank of England*
