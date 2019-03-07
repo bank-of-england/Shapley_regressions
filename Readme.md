@@ -14,9 +14,9 @@ No warranty is given. Please consult the licence file.
 Should you have any queries or spot an issue, please mail to andreas.joseph@bankofengland.co.uk or
 raise an Issue within the repository.
 
-Link to paper: TBD
+Link to paper: www.bankofengland.co.uk/working-paper/2019/shapley-regressions-a-framework-for-statistical-inference-on-machine-learning-models
 
-Download of results: https://www.dropbox.com/s/bkdjpbqrabgtwr4/SWP784_all_results.zip?dl=0
+Download of full results: https://www.dropbox.com/s/bkdjpbqrabgtwr4/SWP784_all_results.zip?dl=0
 
 
 
