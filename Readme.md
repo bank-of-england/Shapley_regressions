@@ -9,9 +9,9 @@ by Andreas Joseph (March 2019).
 
 The paper introduces a well-motivated and rigorous approach to address the black-box critique of machine learning models. Model interpretability is reduced to a multiple linear regression analysis - one of the most transparent and most widely used modelling techniques.
 
-The output of different machine learning models can now presented using a regression table:
+The output of different machine learning models can now presented using a regression table. The example below shows inference results comparing several machine learning models (columns 1-3) with a linear regression (Reg column). Please see Table 4 in the paper for details. 
 
-![caption](https://github.com/bank-of-england/Shapley_regressions/blob/master/figures/U_Shap_reg_table.png)
+![](https://github.com/bank-of-england/Shapley_regressions/blob/master/figures/U_Shap_reg_table.png)
 
 The material provided here allows to reproduce all empirical and simulation results. It is not intended as a stand-alone package. However, parts of it may be transfered to other applications. No warranty is given. Please consult the licence file. 
 
