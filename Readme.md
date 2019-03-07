@@ -24,11 +24,11 @@ Code structure
 --------------
 
 	- 1_macro_Shapley_regressions.py: UK and US macroeconomic time series analysis using 
-		machine learning (ML) models and Shapley regressions for statistical inference.
+		machine learning (ML) models and Shapley regressions for statistical inference (section 5.2 of paper).
 	- 2a_ML_inference_simulation.py: Simulation of polynomial data-generating processes and
 		ML inference based on Shapley decompositions and reconstruction
-		(suited for parallel/cloud processing).
-	- 2b_ML_inference_analysis.py: Collection of simulation results and graphical output. 
+		(suited for parallel/cloud processing, section 5.1 of paper).
+	- 2b_ML_inference_analysis.py: Collection of simulation results and graphical output (section 5.1 of paper). 
 	- ML_inference_aux.py: Auxiliary code for parts 1 and 2, application-specific inputs and 
 		general functions (partly inherited from https://github.com/andi-jo/ML_projection_toolbox).
 		shapley_coeffs() calculates Shapley share coefficients (SSC).
