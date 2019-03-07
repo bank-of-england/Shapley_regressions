@@ -13,7 +13,7 @@ The output of machine learning models can now be presented as a regression table
 
 ![](https://github.com/bank-of-england/Shapley_regressions/blob/master/figures/U_Shap_reg_table.png)
 
-The material provided here allows to reproduce all empirical and simulation results. It is not intended as a stand-alone package. However, parts of it may be transfered to other applications. No warranty is given. Please consult the licence file. 
+The material provided here allows to reproduce all empirical and simulation results in the paper. It is not intended as a stand-alone package. However, parts of it may be transfered to other applications. No warranty is given. Please consult the licence file. 
 
 Should you have any queries or spot an issue, please email to andreas.joseph@bankofengland.co.uk or
 raise an Issue within the repository.
