@@ -14,7 +14,7 @@ No warranty is given. Please consult the licence file.
 Should you have any queries or spot an issue, please mail to andreas.joseph@bankofengland.co.uk or
 raise an Issue within the repository.
 
-Link to paper: 
+Link to paper: TBD
 
 Download of results: https://www.dropbox.com/s/bkdjpbqrabgtwr4/SWP784_all_results.zip?dl=0
 
@@ -64,12 +64,12 @@ Data & sources
 Data description:
 
 	- Quarterly marcoeconomic time series (UK: 1955Q1-2017Q4, US: 1965Q1-2017Q4).
-	- Series are either yoy percentage changes or 1st difference (see paper Table 1).
+	- Series are either yoy percentage changes or 1st difference (see Table 2 of the paper).
 	- all series are standardised to mean zero and std one.
 	- series names: GDP, labour productivity, broad money, private non-financial sector debt, 
 		unemployment rate, household gross-disposable income, consumer price inflation, 
 		central banks main policy rate, current account balance, effective exchange rate. 
-    - raw data and standardised series provided.
+    	- raw data and standardised series provided.
 
 Individual sources by ID:
 
