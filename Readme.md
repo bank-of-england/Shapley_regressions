@@ -1,9 +1,11 @@
-Shapley regressions Code Base (BoE SWP XXX) 
+Shapley regressions Code Base (BoE SWP 784) 
 -------------------------------------------
 
-This repository provides the full code base and data used for Bank of England Staff Working Paper XXX
+This repository provides the full code base, data and results used for Bank of England Staff Working Paper 784
+
 "Shapley regressions: A framework for statistical inference on machine learning models" 
-by Andreas Joseph (2019). 
+
+by Andreas Joseph (March 2019). 
 
 The material allows to reproduce all empirical and simulation results. 
 It is not intended as a stand-alone package. However, parts of it may be transfered to other applications. 
@@ -11,6 +13,11 @@ No warranty is given. Please consult the licence file.
 
 Should you have any queries or spot an issue, please mail to andreas.joseph@bankofengland.co.uk or
 raise an Issue within the repository.
+
+Link to paper: 
+
+Download of results: https://www.dropbox.com/s/bkdjpbqrabgtwr4/SWP784_all_results.zip?dl=0
+
 
 
 Code structure:
