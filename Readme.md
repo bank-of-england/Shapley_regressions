@@ -66,11 +66,11 @@ Data description:
 
 	- Quarterly marcoeconomic time series (UK: 1955Q1-2017Q4, US: 1965Q1-2017Q4).
 	- Series are either yoy percentage changes or 1st difference (see Table 2 of the paper).
-	- all series are standardised to mean zero and std one.
+	- For the analysis, series are standardised to have mean zero and standard deviation one.
+	- raw data and standardised series provided.
 	- series names: GDP, labour productivity, broad money, private non-financial sector debt, 
 		unemployment rate, household gross-disposable income, consumer price inflation, 
-		central banks main policy rate, current account balance, effective exchange rate. 
-    	- raw data and standardised series provided.
+		central banks main policy rate, current account balance, effective exchange rate.
 
 Individual sources by ID:
 
