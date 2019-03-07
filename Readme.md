@@ -45,8 +45,8 @@ Instructions
 	- Please consult the comments in the codes and docstrings for further documentation.
 
 
-Dependencies and versions
--------------------------
+Dependencies & versions
+-----------------------
 
 	- python (3.6.8, Anaconda distribution has been used)
 	- numpy (1.15.4)
