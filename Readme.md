@@ -7,9 +7,9 @@ This repository provides the full code base, data and results used for Bank of E
 
 by Andreas Joseph (March 2019). 
 
-The material allows to reproduce all empirical and simulation results. 
-It is not intended as a stand-alone package. However, parts of it may be transfered to other applications. 
-No warranty is given. Please consult the licence file. 
+The paper introduces a well-motivated and rigorous approach to address the black-box critique of machine learning models. Model interpretability is reduced to a multiple linear regression analysis - one of the most transparent and most widely used modelling techniques. 
+
+The material provided here allows to reproduce all empirical and simulation results. It is not intended as a stand-alone package. However, parts of it may be transfered to other applications. No warranty is given. Please consult the licence file. 
 
 Should you have any queries or spot an issue, please email to andreas.joseph@bankofengland.co.uk or
 raise an Issue within the repository.
