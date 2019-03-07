@@ -11,7 +11,7 @@ The material allows to reproduce all empirical and simulation results.
 It is not intended as a stand-alone package. However, parts of it may be transfered to other applications. 
 No warranty is given. Please consult the licence file. 
 
-Should you have any queries or spot an issue, please mail to andreas.joseph@bankofengland.co.uk or
+Should you have any queries or spot an issue, please email to andreas.joseph@bankofengland.co.uk or
 raise an Issue within the repository.
 
 **Link to paper:** www.bankofengland.co.uk/working-paper/2019/shapley-regressions-a-framework-for-statistical-inference-on-machine-learning-models
