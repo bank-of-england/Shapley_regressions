@@ -7,7 +7,7 @@ This repository provides the code, data and results used for Bank of England Sta
 
 by Andreas Joseph (March 2019). 
 
-The paper introduces a well-motivated and rigorous approach to address the black-box critique of machine learning models. Model interpretability is reduced to a multiple linear regression analysis - one of the most transparent and most widely used modelling techniques.
+The paper introduces a well-motivated and rigorous approach to address the black-box critique of machine learning models. Model interpretability is transferred to a multiple linear regression analysis - one of the most transparent and most widely used modelling techniques.
 
 The output of machine learning models can now be presented as a regression table. The example below shows inference results for modelling changes in UK and US unemployment using quarterly macroeconomic time series. It compares several machine learning models (columns 1-3 for each country) with a linear regression (Reg column). Please see Table 4 in the paper for details. 
 
