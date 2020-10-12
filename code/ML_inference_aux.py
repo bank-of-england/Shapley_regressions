@@ -1158,7 +1158,7 @@ def shapley_coeffs(data,decomp,target,features,mdl_type,is_TS=False,se_type='H3'
     df_rgr = df_rgr[all_cols]
     
     # regain original feature names
-    df_reg.index = [col_dict[i] for i in df_reg.index]
+    df_rgr.index = [col_dict[i] for i in df_rgr.index]
     
     # print to screen
     if verbose==True:
