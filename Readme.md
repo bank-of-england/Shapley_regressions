@@ -86,3 +86,6 @@ Individual sources by ID:
 	- FRED: RNUSBIS, FEDFUNDS, PRS85006163, A229RX0:
 	- A Millennium of UK Data, Ryland Thomas (2017): private sector debt, 
 		M4, labour productivity.
+
+## Data Classification
+Bank of England Data Classification: OFFICIAL BLUE
