@@ -1025,6 +1025,25 @@ def shapley_coeffs(data,decomp,target,features,mdl_type,is_TS=False,se_type='H3'
         pandas dataframe of shapely coefficients and regression stats
         
     '''
+    # reassign original column names
+    col_names = features.copy()
+
+    # standardise feature names
+    feat_indx = np.arange(1, len(features) + 1).astype(str)
+    features = ['x' + f for f in feat_indx]
+    data.columns = np.append('y', features)
+
+    # Create dictionary b/w old and new column name
+    col_indx = np.append('Intercept', features)
+    col_names = np.append('Intercept', col_names)
+    col_zip = zip(col_indx, col_names)
+    col_dict = dict(col_zip)
+
+    # column bind response variable and SHAP values and convert to dataframe
+    shap_val = np.column_stack((data.iloc[:,0], decomp))
+    shap_val = pd.DataFrame(shap_val)
+    shap_val.columns = np.append('y', features)
+    decomp = shap_val
 
     # regression formula
     fml = target+' ~ '+' + '.join(features)
@@ -1137,6 +1156,10 @@ def shapley_coeffs(data,decomp,target,features,mdl_type,is_TS=False,se_type='H3'
     all_cols = ['shap_sign','shap_share','shap_se','coefficient',
                 'is_valid','p_zero','p_one',CI,'t_zero']
     df_rgr = df_rgr[all_cols]
+    
+    # regain original feature names
+    df_rgr.index = [col_dict[i] for i in df_rgr.index]
+    
     # print to screen
     if verbose==True:
         print(df_rgr.round(2).to_string())
